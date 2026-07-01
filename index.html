@@ -1,75 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pyung-te Kim</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-        body{
-            margin:0;
-            font-family:Arial, Helvetica, sans-serif;
-            background:#0d1117;
-            color:white;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            height:100vh;
-            text-align:center;
-        }
+  <!-- Keeps the site out of Google while you're building -->
+  <meta name="robots" content="noindex, nofollow" />
 
-        h1{
-            font-size:64px;
-            margin-bottom:10px;
-        }
+  <title>Pyung-te Kim | Monthly Results</title>
 
-        h2{
-            color:#58a6ff;
-            font-weight:400;
-            margin-bottom:30px;
-        }
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0d1117;
+      color: #f0f6fc;
+      line-height: 1.6;
+    }
 
-        p{
-            font-size:22px;
-            color:#c9d1d9;
-            max-width:700px;
-            margin:auto;
-            line-height:1.6;
-        }
+    header {
+      padding: 80px 20px 50px;
+      text-align: center;
+      background: #010409;
+    }
 
-        a{
-            display:inline-block;
-            margin-top:40px;
-            padding:15px 35px;
-            background:#238636;
-            color:white;
-            text-decoration:none;
-            border-radius:8px;
-            font-size:20px;
-        }
+    h1 {
+      font-size: 52px;
+      margin: 0;
+    }
 
-        a:hover{
-            background:#2ea043;
-        }
-    </style>
+    .tagline {
+      color: #58a6ff;
+      font-size: 22px;
+      margin-top: 10px;
+    }
 
+    .intro {
+      max-width: 700px;
+      margin: 25px auto 0;
+      color: #c9d1d9;
+      font-size: 18px;
+    }
+
+    nav {
+      text-align: center;
+      padding: 18px;
+      background: #161b22;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #f0f6fc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 34px;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 25px;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #58a6ff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #58a6ff;
+    }
+
+    .card p {
+      color: #c9d1d9;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 20px;
+      background: #238636;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #8b949e;
+      border-top: 1px solid #30363d;
+    }
+  </style>
 </head>
 
 <body>
 
-<div>
+<header>
+  <h1>Pyung-te Kim</h1>
+  <div class="tagline">Health × Freedom × Relationships</div>
+  <p class="intro">
+    A private archive of my monthly newsletters, tracking health, poker, money,
+    work, property and personal growth.
+  </p>
+</header>
 
-<h1>Pyung-te Kim</h1>
+<nav>
+  <a href="#about">About</a>
+  <a href="#monthly-results">Monthly Results</a>
+  <a href="#account">Account</a>
+</nav>
 
-<h2>Health × Freedom × Relationships</h2>
+<section id="about">
+  <h2>About</h2>
+  <p>
+    This website is my personal archive. Each month I write a results update
+    covering the main areas of my life: health, freedom, relationships, poker,
+    career and money.
+  </p>
+  <p>
+    The goal is simple: document the journey clearly, honestly and consistently.
+  </p>
+</section>
 
-<p>
-Welcome to my corner of the internet. Here I keep a repository of my past newsletters. Thank you for following my jounrey.
-</p>
+<section id="monthly-results">
+  <h2>Monthly Results</h2>
 
-<a href="#">Monthly Results</a>
+  <div class="grid">
 
-</div>
+    <div class="card">
+      <h3>January Results</h3>
+      <p>Health, reset, discipline and the start of the year.</p>
+      <span class="status">Coming soon</span>
+    </div>
+
+    <div class="card">
+      <h3>February Results</h3>
+      <p>Progress update across health, work, poker and life.</p>
+      <span class="status">Coming soon</span>
+    </div>
+
+    <div class="card">
+      <h3>March Results</h3>
+      <p>Monthly reflections and results.</p>
+      <span class="status">Coming soon</span>
+    </div>
+
+    <div class="card">
+      <h3>April Results</h3>
+      <p>Tracking momentum, lessons and decisions.</p>
+      <span class="status">Coming soon</span>
+    </div>
+
+    <div class="card">
+      <h3>May Results</h3>
+      <p>Health, poker losses, work pressure and learning.</p>
+      <span class="status">Coming soon</span>
+    </div>
+
+    <div class="card">
+      <h3>June Results</h3>
+      <p>Weight loss, property offer, poker profit and community.</p>
+      <span class="status">Coming soon</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="account">
+  <h2>Account</h2>
+  <p>
+    This section is a placeholder for now. Later, this could become a private
+    dashboard or personal tracking page.
+  </p>
+  <p>
+    For now, the site is not listed on Google, but anyone with the exact link can
+    still view it.
+  </p>
+</section>
+
+<footer>
+  © 2026 Pyung-te Kim. Private archive.
+</footer>
 
 </body>
 </html>
